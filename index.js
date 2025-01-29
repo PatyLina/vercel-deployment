@@ -1,7 +1,5 @@
 import express from "express";
 
-
-
 const app= express();
 
 app.use("/",(req,res)=> {
@@ -9,4 +7,4 @@ app.use("/",(req,res)=> {
 });
 
 const PORT=3030;
-app.listen(PORT,console.log("Servidor INICIADO EN EL PUESTOR 3030"));
+app.listen(PORT,console.log("Servidor INICIANDO EN EL PUERTO 3030"));
